@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="edu.up.cs301.mastermind.MmActivity"
+    android:background="#e0b080">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_width="0sp"
+        android:layout_weight="1">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Space
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:text=" "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/answer_button1"
+                android:layout_weight="0"
+                android:background="#000000" />
+
+            <Space
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:text=" "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/answer_button2"
+                android:layout_weight="0"
+                android:background="#000000"  />
+
+            <Space
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:text=" "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/answer_button3"
+                android:layout_weight="0"
+                android:background="#000000"  />
+
+            <Space
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:text=" "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/answer_button4"
+                android:layout_weight="0"
+                android:background="#000000"  />
+
+            <Space
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="6" />
+
+        </LinearLayout>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Space
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:text=" "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guess_button1"
+                android:layout_weight="0"
+                android:background="#000000" />
+
+            <Space
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+            <Button
+                android:text=" "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guess_button2"
+                android:layout_weight="0"
+                android:background="#000000"  />
+
+            <Space
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+            <Button
+                android:text=" "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guess_button3"
+                android:layout_weight="0"
+                android:background="#000000"  />
+
+            <Space
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+            <Button
+                android:text=" "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guess_button4"
+                android:layout_weight="0"
+                android:background="#000000"  />
+
+            <Space
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="6" />
+
+        </LinearLayout>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="4" />
+
+        <Button
+            android:text="get clue"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/get_clue_button"
+            android:layout_weight="1"
+            android:background="#ff0000" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1" />
+
+        <Button
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/clue_button1"
+            android:layout_weight="1"
+            android:background="#c0c0c0" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="0.3" />
+        <Button
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/clue_button2"
+            android:layout_weight="1"
+            android:background="#c0c0c0" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="0.3" />
+        <Button
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/clue_button3"
+            android:layout_weight="1"
+            android:background="#c0c0c0" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="0.3" />
+        <Button
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/clue_button4"
+            android:layout_weight="1"
+            android:background="#c0c0c0" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="4" />
+
+    </LinearLayout>
+</LinearLayout>
